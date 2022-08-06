@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 
 type Todo = {
   readonly id: number;
@@ -70,7 +69,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="mx-auto my-12 max-w-5xl">
       <form
         onSubmit={(e) => {
           e.preventDefault();
